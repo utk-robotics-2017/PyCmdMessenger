@@ -2,6 +2,7 @@ language: python
 sudo: required
 
 install:
+  - sudo apt-get install python3-pip
   - sudo pip3 install -U flake8
 
 script:
