@@ -11,7 +11,7 @@ install:
   - sudo python -m pip install flake8
 
 script:
-  - python3 -m flake8
+  - flake8
 
 notifications:
   flowdock:
