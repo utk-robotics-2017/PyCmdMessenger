@@ -5,9 +5,7 @@ python:
   - "3.5"
 
 install:
-  - sudo apt-get install python3-setuptools
-  - sudo easy_install3 pip
-  - sudo pip3 install -U flake8
+  - sudo python -m pip install flake8
 
 script:
   - flake8
