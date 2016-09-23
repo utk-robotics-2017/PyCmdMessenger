@@ -146,7 +146,7 @@ class ArduinoBoard:
 
         if not self._is_connected:
 
-            print("Connecting to arduino on {0:s}... ".format(self.device), end="")
+            print("Connecting to arduino on {0:s}... ".format(self.device))
             self.comm = serial.Serial(self.device,
                                       self.baud_rate,
                                       timeout=self.timeout)
