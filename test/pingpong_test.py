@@ -275,7 +275,7 @@ class PingPong:
         # Figure out what the type id will be to pass to arduino (this is an
         # integer determined by the enumeration over TYPE_LIST in the arduino
         # sketch)
-        self.type_dict = dict([(k, i) for i,  k in enumerate(TYPE_LIST)])
+        self.type_dict = dict([(k, j) for j,  k in enumerate(TYPE_LIST)])
 
         if self.type_name == "multivalue":
             self._type = "multivalue"
