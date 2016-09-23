@@ -1,6 +1,9 @@
 language: python
 sudo: required
 
+python:
+  - "3.5"
+
 install:
   - sudo apt-get install python3-setuptools
   - sudo easy_install3 pip
